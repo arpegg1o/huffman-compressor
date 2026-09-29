@@ -13,7 +13,7 @@ long FILE_size(FILE *file) {
 }
 
 int main(int argc, char* argv[]) {
-    FILE* input = fopen("data/crown.webp", "rb");
+    FILE* input = fopen("data/big.txt", "rb");
     if (input == NULL) {
         exit(EXIT_FAILURE);
     }
